@@ -1,0 +1,40 @@
+/* Computadora*/
+    .box{border: black solid;
+      background-color: red;
+      width:300px;
+      height: 20vh;
+      margin-left: 4px;
+      margin-right: 4px;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      padding:0;
+}
+
+/*Laptop*/
+@media screen and (max-width: 800px) {
+  .box{border: black dotted;
+    background-color: green;
+    width:20%;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    padding:9px;
+                           }
+}
+
+
+/*celular*/
+@media screen and (max-width: 640px) {
+  .box{border: #A50C07 solid;
+    background-color: green;
+    width:20%;
+    height: 100px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 9px;
+    padding-top: 0;
+    padding-bottom:0;
+                           }
+}
